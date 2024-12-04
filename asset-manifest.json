@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.b17656c2.css",
-    "main.js": "/static/js/main.26734a6d.js",
+    "main.css": "/static/css/main.a28ea97d.css",
+    "main.js": "/static/js/main.bf0dc212.js",
     "static/js/453.1407b060.chunk.js": "/static/js/453.1407b060.chunk.js",
     "static/media/ig.jpg": "/static/media/ig.0a20ef5410465f5e9b67.jpg",
     "static/media/ig.png": "/static/media/ig.8694733aa7fafa4db4c4.png",
@@ -12,6 +12,7 @@
     "static/media/idex.png": "/static/media/idex.0dc36a96b733b1579d70.png",
     "static/media/noi.png": "/static/media/noi.be919135c4763fd1aa1f.png",
     "static/media/oppx.png": "/static/media/oppx.b40414a5de01c5bcc08d.png",
+    "static/media/wallpaper.jpg": "/static/media/wallpaper.96bb324b2bfcddb7b5ba.jpg",
     "static/media/vex.jpeg": "/static/media/vex.040f527999808bf6fadb.jpeg",
     "static/media/linkedin.png": "/static/media/linkedin.d2057ba26ee67f81b612.png",
     "static/media/wro.png": "/static/media/wro.3df7ba916b9a85fd5255.png",
@@ -23,12 +24,12 @@
     "static/media/achievements.jpg": "/static/media/achievements.fe760ff4b4981a30b682.jpg",
     "static/media/intoc.png": "/static/media/intoc.090554b16118dfbb64a5.png",
     "index.html": "/index.html",
-    "main.b17656c2.css.map": "/static/css/main.b17656c2.css.map",
-    "main.26734a6d.js.map": "/static/js/main.26734a6d.js.map",
+    "main.a28ea97d.css.map": "/static/css/main.a28ea97d.css.map",
+    "main.bf0dc212.js.map": "/static/js/main.bf0dc212.js.map",
     "453.1407b060.chunk.js.map": "/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b17656c2.css",
-    "static/js/main.26734a6d.js"
+    "static/css/main.a28ea97d.css",
+    "static/js/main.bf0dc212.js"
   ]
 }
