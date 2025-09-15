@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.43962da2.css",
-    "main.js": "/static/js/main.2cff2ad5.js",
+    "main.css": "/static/css/main.bf68fdff.css",
+    "main.js": "/static/js/main.e3f59973.js",
     "static/js/453.1407b060.chunk.js": "/static/js/453.1407b060.chunk.js",
     "static/media/photo.png": "/static/media/photo.ba4a1646ad924298567a.png",
     "static/media/gym.png": "/static/media/gym.386e16d4575e68ca6f6c.png",
@@ -11,6 +11,7 @@
     "static/media/pfp.jpg": "/static/media/pfp.1958d65393b790d025fb.jpg",
     "static/media/tele.jpg": "/static/media/tele.1958d65393b790d025fb.jpg",
     "static/media/sstlogo.png": "/static/media/sstlogo.4f145e8ccdc052d41c06.png",
+    "static/media/nyjc.png": "/static/media/nyjc.5cf31f232e9878cff274.png",
     "static/media/moe.png": "/static/media/moe.8d87b2cbbd41716c86c3.png",
     "static/media/idex.png": "/static/media/idex.0dc36a96b733b1579d70.png",
     "static/media/noi.png": "/static/media/noi.be919135c4763fd1aa1f.png",
@@ -23,16 +24,17 @@
     "static/media/persecoding.png": "/static/media/persecoding.5ee3b53342b1d962bdb4.png",
     "static/media/robo.png": "/static/media/robo.6474f76c8c86b81566a8.png",
     "static/media/linkedin.jpeg": "/static/media/linkedin.3ba8faa57c060a1db9b7.jpeg",
+    "static/media/nycomp.png": "/static/media/nycomp.307171e831d9264313a3.png",
     "static/media/abrsm.png": "/static/media/abrsm.637a28b4388895024b44.png",
     "static/media/achievements.jpg": "/static/media/achievements.fe760ff4b4981a30b682.jpg",
     "static/media/intoc.png": "/static/media/intoc.090554b16118dfbb64a5.png",
     "index.html": "/index.html",
-    "main.43962da2.css.map": "/static/css/main.43962da2.css.map",
-    "main.2cff2ad5.js.map": "/static/js/main.2cff2ad5.js.map",
+    "main.bf68fdff.css.map": "/static/css/main.bf68fdff.css.map",
+    "main.e3f59973.js.map": "/static/js/main.e3f59973.js.map",
     "453.1407b060.chunk.js.map": "/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.43962da2.css",
-    "static/js/main.2cff2ad5.js"
+    "static/css/main.bf68fdff.css",
+    "static/js/main.e3f59973.js"
   ]
 }
