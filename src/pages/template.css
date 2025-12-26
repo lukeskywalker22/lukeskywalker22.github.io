@@ -1,0 +1,290 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap');
+
+.main {
+    padding: 1em;
+    display: inline-block;
+    align-items: start;
+}
+
+.horizontalSection {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: flex-start;
+    gap: clamp(1rem, 3vw, 2rem);
+    width: 100%;
+    padding: clamp(0.5rem, 2vw, 1rem);
+}
+
+.horizontalSection2 {
+  display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    gap: clamp(1rem, 3vw, 2rem);
+    width: 100%;
+    padding: clamp(0.5rem, 2vw, 1rem);
+}
+
+/* Card layouts within horizontal sections */
+.horizontalSection .card {
+    flex: 0 0 300px;
+    width: 300px;
+    margin: 0;
+}
+
+.horizontalSection .wide-card {
+    flex: 0 1 auto;
+    min-width: 300px;
+    max-width: 400px;
+    width: calc(50% - 2rem);
+    margin: 0;
+    
+}
+
+/* Button layouts within horizontal sections */
+.horizontalSection .navbutton,
+.horizontalSection .contactbutton {
+    flex: 0 1 auto;
+    min-width: 120px;
+    max-width: 200px;
+    margin: 0;
+}
+
+/* Media Queries for Horizontal Sections */
+@media (max-width: 1200px) {
+}
+
+@media (max-width: 768px) {
+    .horizontalSection {
+        gap: 1rem;
+    }
+    
+    .horizontalSection .card,
+    .horizontalSection .wide-card {
+    }
+    
+    .horizontalSection .navbutton,
+    .horizontalSection .contactbutton {
+        width: calc(50% - 1rem);
+    }
+}
+
+@media (max-width: 480px) {
+    .horizontalSection .navbutton,
+    .horizontalSection .contactbutton {
+        width: 100%;
+    }
+}
+
+.pageTitle {
+    color: #e1e2ef;
+    font-weight: bold;
+    font-size: xx-large;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.bodyText {
+    color: #e1e2ef;
+    font-size: large;
+    display: inline;
+}
+
+.card {
+  background: linear-gradient(135deg, 
+  rgba(33, 52, 125, 0.7) 0%, 
+  rgba(201, 94, 27, 0.7) 50%,
+  rgba(30, 118, 232, 0.7) 100%);
+    border: 1px solid rgba(255, 140, 66, 0.3);
+    border-radius: 1em;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 16px 20px;
+    margin: 15px;
+    max-width: 350px;
+    min-height: 300px;
+    font-family: Arial, sans-serif;
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    background-size: 200% 200%;
+    background-position: 0% 0%;    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .wide-card {
+    background: linear-gradient(135deg, 
+    rgba(41, 46, 66, 0.9) 0%, 
+    rgba(255, 140, 66, 0.15) 50%,
+    rgba(255, 60, 130, 0.15) 100%);    
+    border: 1px solid rgba(255, 140, 66, 0.3);
+    border-radius: 1em;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 16px 20px;
+    margin: 10px;
+    min-width: 400px;
+    max-width: 700px;
+    min-height: 300px;
+    font-family: Arial, sans-serif;
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    background-size: 200% 200%;
+    background-position: 0% 0%;    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+  }
+
+  .divspan {
+    position:absolute; 
+    width:100%;
+    height:100%;
+    top:0;
+    left: 0;
+
+    z-index: 1;
+  }
+
+  .titleBar {
+    background-color: rgba(41, 46, 66, 0.9);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    padding: 10px 20px;
+    border-bottom: 2px solid #3D3D3D;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .sectionheader {
+    margin-left: 10px;
+    color: #e1e2ef;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  }
+
+  .navbutton {
+    background-color: #2C3E50;
+    text-decoration: none;
+    font-size: 1.2em;
+    transition: color 0.3s;
+    color: #E4E4E4;
+    display: block;
+    border-radius: 12.5px;
+    padding: 0.5em;
+    text-align: center;
+    }
+
+  .navbutton:hover {
+    background-color: #34495E;
+    transform: translateY(-2px);
+  }
+
+  .card:hover, .wide-card:hover {
+    border-color: rgba(255, 140, 66, 0.6);
+    box-shadow: 0 8px 16px rgba(0, 136, 255, 0.2);
+    background-position: 100% 100%;
+    transform: translateY(-2px);
+    transition: all 0.3s ease;
+}
+
+  .card-title {
+    color: #FF8C42;
+    font-weight: bold;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    font-family: 'Space Grotesk', sans-serif;
+  }
+
+  .card-title, .card-subtitle, .card-content {
+    transition: color 0.3s ease, opacity 0.3s ease;
+  }
+
+  .card *, .wide-card * {
+    transition: all 0.3s ease;
+}
+
+  .card-subtitle {
+    margin-left: 15px;
+    margin-bottom: 4px;
+    font-weight: normal;
+    color: #ff87b3;
+    opacity: 0.9;
+  }
+  
+  .card-content {
+    font-size: 1em;
+    color: #e1e2ef;
+  }
+
+  .pic {
+    border-radius: 1em;
+    margin: 1.5em;
+    border: 2px solid white;
+  }
+
+  .logo {
+    margin: 1.5em;
+    border-radius: 1em;
+  }
+
+  .logoWithBg {
+    background-color: white;
+    margin: 1em;
+    border-radius: 1em;
+    padding: 1em;
+  }
+
+  .logoBgNoPadding {
+    background-color: white;
+    margin: 1em;
+    border-radius: 1em;
+  }
+
+  .hyperlink-bold {
+    font-weight: bold;
+    font-size: larger;
+    color: #FF8C42;
+    transition: color 0.3s;
+  }
+
+  .hyperlink-bold:hover {
+    color: #FF3C82;
+  }
+
+  .achievementbg {
+    background: url("../assets/backgrounds/achievements.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    justify-content: flex-start;
+  }
+  
+  .gallery-item {
+    flex: 0 1 auto; /* Don't grow, can shrink, base size on content */
+    border-radius: 8px;
+  }
+  
+  .gallery-item img {
+    height: 320px; /* Fixed height for all images */
+    width: auto; /* Width will adjust based on aspect ratio */
+    object-position: center;
+    display: block;
+    border-radius: 15px;
+    border: 2px solid white;
+  }
+  
+  @media (max-width: 768px) {
+    .gallery-item img {
+      height: 150px; /* Smaller height on mobile */
+    }
+  }
+  
