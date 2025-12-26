@@ -47,6 +47,14 @@ const Layout = () => {
                 Achievements
               </NavLink>
             </li>
+            <li>
+              <NavLink
+                to="/gallery"
+                className={({ isActive }) => (isActive ? "active" : "")}
+              >
+                Gallery
+              </NavLink>
+            </li>
 
             {/* <li>
               <NavLink
@@ -62,14 +70,6 @@ const Layout = () => {
                 className={({ isActive }) => (isActive ? "active" : "")}
               >
                 Projects
-              </NavLink>
-            </li> */}
-            {/* <li>
-              <NavLink
-                to="/gallery"
-                className={({ isActive }) => (isActive ? "active" : "")}
-              >
-                Gallery
               </NavLink>
             </li> */}
 

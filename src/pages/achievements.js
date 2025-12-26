@@ -9,6 +9,7 @@ import intoc from "../assets/competitions/intoc.png";
 import oppx from "../assets/competitions/oppx.png";
 import moe from "../assets/competitions/moe.png";
 import ewbarker from "../assets/competitions/ewbarker.jpg";
+import sil from "../assets/competitions/sil.png";
 
 import ScrollAnimation from "react-animate-on-scroll";
 import "animate.css";
@@ -34,6 +35,12 @@ const Achievements = () => {
               <h2 className="card-title">E.W. Barker Challenge</h2>
               <img src={ewbarker} width={175} className="logo" />
               <h3 className="card-subtitle">Champion</h3>
+              <h2 className="card-title">2025</h2>
+            </div>
+            <div className="card">
+              <h2 className="card-title">Singapore Informatics League</h2>
+              <img src={sil} width={145} className="logo" />
+              <h3 className="card-subtitle">Bronze</h3>
               <h2 className="card-title">2025</h2>
             </div>
           </div>
@@ -139,7 +146,7 @@ const Achievements = () => {
                 alt=""
                 style={{ margin: 1.5 + "em" }}
               />
-              <h2 className="card-title">2022, 2024</h2>
+              <h2 className="card-title">2022, 2024, 2025</h2>
               <h3 className="card-subtitle">
                 Awarded to top 25% of school's level in terms of academic
                 performance

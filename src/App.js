@@ -1,5 +1,5 @@
 import "./App.css";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 
 import Layout from "./layout";
 import Home from "./pages/home";
@@ -10,17 +10,17 @@ import Gallery from "./pages/gallery";
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
           <Route path="achievements" element={<Achievements />} />
-          <Route path="socials" element={<Socials />} />
+          <Route path="gallery" element={<Gallery />} />
           <Route path="*" element={<NoPage />} />
           {/* <Route path="gallery" element={<Gallery />} /> */}
         </Route>
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 export default App;
