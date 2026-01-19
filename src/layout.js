@@ -56,31 +56,14 @@ const Layout = () => {
               </NavLink>
             </li>
 
-            {/* <li>
-              <NavLink
-                to="/service"
-                className={({ isActive }) => (isActive ? "active" : "")}
-              >
-                Service
-              </NavLink>
-            </li>
             <li>
               <NavLink
-                to="/projects"
+                to="/blog"
                 className={({ isActive }) => (isActive ? "active" : "")}
               >
-                Projects
+                Blog
               </NavLink>
-            </li> */}
-
-            {/* <li>
-              <NavLink
-                to="/socials"
-                className={({ isActive }) => (isActive ? "active" : "")}
-              >
-                Socials
-              </NavLink>
-            </li> */}
+            </li>
 
             <button className="contactbutton" onClick={contact}>
               Contact Me

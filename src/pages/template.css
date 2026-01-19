@@ -200,7 +200,9 @@
 .card-title,
 .card-subtitle,
 .card-content {
-  transition: color 0.3s ease, opacity 0.3s ease;
+  transition:
+    color 0.3s ease,
+    opacity 0.3s ease;
 }
 
 .card *,
@@ -395,4 +397,9 @@
 .gallery .j-loading,
 .gallery .j-spinner {
   color: #ffffff !important;
+}
+
+.sk-ww-linkedin-profile-post {
+  padding: 2em;
+  max-width: 95.5vw;
 }
