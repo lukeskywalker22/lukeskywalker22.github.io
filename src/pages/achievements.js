@@ -27,6 +27,42 @@ const Achievements = () => {
       </div>
 
       <div className="main achievementsbg">
+        <h1 className="sectionheader">Science Research</h1>
+
+        <ScrollAnimation animateIn="fadeInRight" animateOnce>
+          <div className="horizontalSection">
+            <div className="card">
+              <h2 className="card-title">NTU Nanyang Research Programme</h2>
+              <img
+                src="https://upload.wikimedia.org/wikipedia/en/thumb/f/f8/Nanyang_Technological_University_coat_of_arms_vector.svg/960px-Nanyang_Technological_University_coat_of_arms_vector.svg.png"
+                className="logoWithBg"
+                style={{
+                  margin: "2em",
+                }}
+                height={90}
+                alt="ntu"
+              />
+              <h3 className="card-subtitle">Silver Award</h3>
+              <h3 className="card-subtitle">2025-2026</h3>
+            </div>
+            <div className="card">
+              <h2 className="card-title">
+                International Online Science Competition
+              </h2>
+              <img src={intoc} className="logo" alt="" />
+              <h2 className="card-subtitle">Bronze award</h2>
+              <h2 className="card-title">2022</h2>
+            </div>
+
+            <div className="card">
+              <h2 className="card-title">Opportunity X Online Science Fair</h2>
+              <img src={oppx} className="logo" alt="" height={125} />
+              <h2 className="card-subtitle">Presentation award</h2>
+              <h2 className="card-title">2022</h2>
+            </div>
+          </div>
+        </ScrollAnimation>
+
         <h1 className="sectionheader">Competitions</h1>
 
         <ScrollAnimation animateIn="fadeInRight" animateOnce>
@@ -113,22 +149,6 @@ const Achievements = () => {
               <h2 className="card-title">Singapore Vex Robotics Competition</h2>
               <img src={vex} height={140} alt="" className="logo" />
               <h3 className="card-subtitle">Judges' award</h3>
-              <h2 className="card-title">2022</h2>
-            </div>
-
-            <div className="card">
-              <h2 className="card-title">
-                International Online Science Competition
-              </h2>
-              <img src={intoc} className="logo" alt="" />
-              <h2 className="card-subtitle">Bronze award</h2>
-              <h2 className="card-title">2022</h2>
-            </div>
-
-            <div className="card">
-              <h2 className="card-title">Opportunity X Online Science Fair</h2>
-              <img src={oppx} className="logo" alt="" height={125} />
-              <h2 className="card-subtitle">Presentation award</h2>
               <h2 className="card-title">2022</h2>
             </div>
           </div>

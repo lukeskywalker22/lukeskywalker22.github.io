@@ -93,7 +93,7 @@ const Home = () => {
               onClick={() =>
                 window.open(
                   "https://www.linkedin.com/in/luke-yeo-337204244/",
-                  "_blank"
+                  "_blank",
                 )
               }
               className="card-title"
@@ -156,7 +156,7 @@ const Home = () => {
               <div className="card">
                 <h2 className="card-title">CCA Leaders Council</h2>
                 <img
-                  src="https://upload.wikimedia.org/wikipedia/en/thumb/1/11/Nanyang_Junior_College_Logo.svg/1200px-Nanyang_Junior_College_Logo.svg.png"
+                  src="https://upload.wikimedia.org/wikipedia/en/thumb/1/11/Nanyang_Junior_College_Logo.svg/1280px-Nanyang_Junior_College_Logo.svg.png"
                   className="logo"
                   height={80}
                   alt="nyjc"
@@ -169,7 +169,7 @@ const Home = () => {
               <div className="card">
                 <h2 className="card-title">NTU Nanyang Research Programme</h2>
                 <img
-                  src="https://upload.wikimedia.org/wikipedia/en/thumb/f/f8/Nanyang_Technological_University_coat_of_arms_vector.svg/1200px-Nanyang_Technological_University_coat_of_arms_vector.svg.png"
+                  src="https://upload.wikimedia.org/wikipedia/en/thumb/f/f8/Nanyang_Technological_University_coat_of_arms_vector.svg/960px-Nanyang_Technological_University_coat_of_arms_vector.svg.png"
                   className="logo"
                   style={{
                     margin: "0.25em",
@@ -177,7 +177,8 @@ const Home = () => {
                   height={90}
                   alt="ntu"
                 />
-                <h3 className="card-subtitle">2025</h3>
+                <h3 className="card-subtitle">Silver Award</h3>
+                <h3 className="card-subtitle">2025-2026</h3>
               </div>
               <div className="card">
                 <h2 className="card-title">Nanyang System Developers</h2>
@@ -188,7 +189,7 @@ const Home = () => {
                   height={80}
                   style={{ margin: "0" }}
                 />
-                <h3 className="card-subtitle">Collaborator</h3>
+                <h3 className="card-subtitle">Leader (Quality Assurance)</h3>
                 <h3 className="card-subtitle">2025-2026</h3>
               </div>
             </div>
