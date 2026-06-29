@@ -178,7 +178,7 @@ const Home = () => {
                   alt="ntu"
                 />
                 <h3 className="card-subtitle">Silver Award</h3>
-                <h3 className="card-subtitle">2025-2026</h3>
+                <h3 className="card-title">2025-2026</h3>
               </div>
               <div className="card">
                 <h2 className="card-title">Nanyang System Developers</h2>
@@ -190,7 +190,7 @@ const Home = () => {
                   style={{ margin: "0" }}
                 />
                 <h3 className="card-subtitle">Leader (Quality Assurance)</h3>
-                <h3 className="card-subtitle">2025-2026</h3>
+                <h3 className="card-title">2025-2026</h3>
               </div>
             </div>
           </div>
@@ -215,7 +215,7 @@ const Home = () => {
                 <div className="card">
                   <h2 className="card-title">Robotics @ APEX</h2>
                   <img src={robo} alt="" height={50} />
-                  <h3 className="card-subtitle">2021-2024</h3>
+                  <h3 className="card-title">2021-2024</h3>
                 </div>
               </div>
 
@@ -230,7 +230,7 @@ const Home = () => {
                     style={{ padding: "1em" }}
                   />
                   <h3 className="card-subtitle">Exco Member</h3>
-                  <h3 className="card-subtitle">2021-2024</h3>
+                  <h3 className="card-title">2021-2024</h3>
                 </div>
 
                 <div className="card">
@@ -242,7 +242,7 @@ const Home = () => {
                     height={80}
                     style={{ margin: "0.5em" }}
                   />
-                  <h3 className="card-subtitle">2022-2024</h3>
+                  <h3 className="card-title">2022-2024</h3>
                 </div>
               </div>
             </div>
@@ -261,10 +261,10 @@ const Home = () => {
                 alt=""
                 style={{ margin: 1.5 + "em" }}
               />
-              <h3 className="card-subtitle">2025-2026</h3>
+              <h3 className="card-title">2025-2026</h3>
             </div>
             <div className="card">
-              <h2 className="card-title">CSIT JC Computing Scholarship</h2>
+              <h2 className="card-title">CSIT Computing Scholarship</h2>
               <img
                 src="https://www.csit.gov.sg/images/default-source/csit-logo-and-icon/9559_csit-logo_fa-01.png?sfvrsn=948591f4_1"
                 height={140}
@@ -275,7 +275,7 @@ const Home = () => {
                 }}
                 alt=""
               />
-              <h3 className="card-subtitle">2025-2026</h3>
+              <h3 className="card-title">2025-2026</h3>
             </div>
           </div>
         </ScrollAnimation>
@@ -288,13 +288,13 @@ const Home = () => {
               <h2 className="card-title">Bookstore assistant</h2>
               <img src={asencio} alt="" className="" height={70} />
               <h2 className="card-title">Asencio bookstores</h2>
-              <h3 className="card-subtitle">Nov-Dec 2024</h3>
+              <h3 className="card-title">Nov-Dec 2024</h3>
             </div>
             <div className="card">
               <h2 className="card-title">Consultant</h2>
               <img src={inc} alt="" className="" height={70} />
               <h2 className="card-title">SST Incorporated</h2>
-              <h3 className="card-subtitle">Jan-Dec 2025</h3>
+              <h3 className="card-title">Jan-Dec 2025</h3>
             </div>
           </div>
         </ScrollAnimation>

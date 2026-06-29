@@ -43,7 +43,7 @@ const Achievements = () => {
                 alt="ntu"
               />
               <h3 className="card-subtitle">Silver Award</h3>
-              <h3 className="card-subtitle">2025-2026</h3>
+              <h3 className="card-title">2025-2026</h3>
             </div>
             <div className="card">
               <h2 className="card-title">
