@@ -47,9 +47,9 @@ const Achievements = () => {
             </div>
             <div className="card">
               <h2 className="card-title">
-                International Online Science Competition
+                INTOC International Science Project Competition
               </h2>
-              <img src={intoc} className="logo" alt="" />
+              <img src={intoc} className="logo" alt="" height={92} />
               <h2 className="card-subtitle">Bronze award</h2>
               <h2 className="card-title">2022</h2>
             </div>
