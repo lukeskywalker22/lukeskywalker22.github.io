@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/static/css/main.c1929498.css",
-    "main.js": "/static/js/main.970d1f76.js",
+    "main.js": "/static/js/main.028659fe.js",
     "static/js/453.1407b060.chunk.js": "/static/js/453.1407b060.chunk.js",
+    "static/media/pfp.png": "/static/media/pfp.16227ab897b2654f16ed.png",
     "static/media/gym.png": "/static/media/gym.386e16d4575e68ca6f6c.png",
     "static/media/council.png": "/static/media/council.2ef6837ee73fda1c1ce5.png",
     "static/media/ig.png": "/static/media/ig.8694733aa7fafa4db4c4.png",
-    "static/media/pfp.jpg": "/static/media/pfp.1958d65393b790d025fb.jpg",
     "static/media/sstlogo.png": "/static/media/sstlogo.4f145e8ccdc052d41c06.png",
     "static/media/sil.png": "/static/media/sil.ef2fd1414f86d6a581b7.png",
     "static/media/nyjc.png": "/static/media/nyjc.5cf31f232e9878cff274.png",
@@ -24,14 +24,15 @@
     "static/media/nycomp.png": "/static/media/nycomp.307171e831d9264313a3.png",
     "static/media/abrsm.png": "/static/media/abrsm.637a28b4388895024b44.png",
     "static/media/achievements.jpg": "/static/media/achievements.fe760ff4b4981a30b682.jpg",
+    "static/media/nus.png": "/static/media/nus.f80f04b132fad5d8443b.png",
     "static/media/intoc.png": "/static/media/intoc.090554b16118dfbb64a5.png",
     "index.html": "/index.html",
     "main.c1929498.css.map": "/static/css/main.c1929498.css.map",
-    "main.970d1f76.js.map": "/static/js/main.970d1f76.js.map",
+    "main.028659fe.js.map": "/static/js/main.028659fe.js.map",
     "453.1407b060.chunk.js.map": "/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c1929498.css",
-    "static/js/main.970d1f76.js"
+    "static/js/main.028659fe.js"
   ]
 }
