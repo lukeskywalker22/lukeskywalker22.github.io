@@ -10,6 +10,7 @@ import oppx from "../assets/competitions/oppx.png";
 import moe from "../assets/competitions/moe.png";
 import ewbarker from "../assets/competitions/ewbarker.jpg";
 import sil from "../assets/competitions/sil.png";
+import nyjc from "../assets/profile/nyjc.png";
 
 import ScrollAnimation from "react-animate-on-scroll";
 import "animate.css";
@@ -166,11 +167,25 @@ const Achievements = () => {
                 alt=""
                 style={{ margin: 1.5 + "em" }}
               />
-              <h2 className="card-title">2022, 2024, 2025</h2>
+              <h3 className="card-title">2022, 2024, 2025</h3>
               <h3 className="card-subtitle">
                 Awarded to top 25% of school's level in terms of academic
                 performance
               </h3>
+            </div>
+            <div className="card">
+              <h2 className="card-title">NYJC CCA Awards</h2>
+              <img src={nyjc} alt="nyjc" className="logo" height={150} />
+              <h3 className="card-title">2026</h3>
+              <h2 className="card-title">Outstanding Contribution</h2>
+              <h3 className="card-subtitle">Awarded under Gym Club</h3>
+            </div>
+            <div className="card">
+              <h2 className="card-title">!Q@NYJC Award</h2>
+              <img src={nyjc} alt="nyjc" className="logo" height={150} />
+              <h3 className="card-title">2026</h3>
+              <h2 className="card-title">Commendation</h2>
+              <h3 className="card-subtitle">Awarded under CCA-SIG Council</h3>
             </div>
           </div>
         </ScrollAnimation>

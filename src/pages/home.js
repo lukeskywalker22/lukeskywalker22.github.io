@@ -1,6 +1,6 @@
 import "./template.css";
 
-import pfp from "../assets/profile/pfp.jpg";
+import pfp from "../assets/profile/pfp.png";
 import ig from "../assets/socials/ig.png";
 import linkedin from "../assets/socials/linkedin.png";
 
@@ -14,6 +14,7 @@ import nycomp from "../assets/ccas/nycomp.png";
 
 import sstlogo from "../assets/competitions/sstlogo.png";
 import abrsm from "../assets/competitions/abrsm.png";
+import nus from "../assets/courses/nus.png";
 
 import asencio from "../assets/work/asencio.png";
 
@@ -154,7 +155,7 @@ const Home = () => {
                 <h3 className="card-subtitle">2025-2026</h3>
               </div>
               <div className="card">
-                <h2 className="card-title">CCA Leaders Council</h2>
+                <h2 className="card-title">CCA-SIG Council</h2>
                 <img
                   src="https://upload.wikimedia.org/wikipedia/en/thumb/1/11/Nanyang_Junior_College_Logo.svg/1280px-Nanyang_Junior_College_Logo.svg.png"
                   className="logo"
@@ -313,6 +314,24 @@ const Home = () => {
               <h2 className="card-title">ABRSM Grade 5 Piano</h2>
               <img src={abrsm} alt="abrsm" className="logo" height={150} />
               <h3 className="card-subtitle">Passed with Merit</h3>
+            </div>
+          </div>
+        </ScrollAnimation>
+
+        <ScrollAnimation animateIn="fadeInRight" animateOnce>
+          <div className="horizontalSection">
+            <div className="card">
+              <h2 className="card-title">NUS CS0</h2>
+              <img src={nus} alt="nus" className="logo" height={150} />
+              <h3 className="card-subtitle">Passed with Proficiency</h3>
+              <h3 className="card-title">2026</h3>
+            </div>
+
+            <div className="card">
+              <h2 className="card-title">NUS ML0</h2>
+              <img src={nus} alt="nus" className="logo" height={150} />
+              <h3 className="card-subtitle">Passed with Distinction</h3>
+              <h3 className="card-title">2026</h3>
             </div>
           </div>
         </ScrollAnimation>
