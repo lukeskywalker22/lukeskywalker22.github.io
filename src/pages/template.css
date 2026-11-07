@@ -273,6 +273,11 @@
   justify-content: flex-start;
 }
 
+.gallery .juicer-feed {
+  width: 100%;
+  flex: 1 1 100%
+}
+
 .gallery-item {
   flex: 0 1 auto; /* Don't grow, can shrink, base size on content */
   border-radius: 8px;
